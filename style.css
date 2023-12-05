@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Inter:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Outfit", "Roboto", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #1a2d74 0%, #061754 100%) no-repeat;
+  height: 620px;
+  padding-bottom: 80px;
+}
+
+h1 {
+  font-family: "Amatic SC", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 100px;
+  color: #9ceffc;
+  margin-bottom: 20px;
+}
+
+.calculo {
+  display: grid;
+  padding: 24px;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+span {
+  color: #f8fd00;
+}
+
+input {
+  padding: 8px 4px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  margin-top: 8px;
+  color: #061754;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  align-self: center;
+  border: 2px solid #9ceffc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #9ceffc;
+}
+
+p {
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.ceu {
+  top: 24px;
+  background: url(./1489136024.svg) repeat-y center;
+  height: 64px;
+  width: 100%;
+  position: absolute;
+}
+
+.ativo {
+  display: none;
+}
