@@ -8,12 +8,18 @@
 }
 
 body {
-  position: relative;
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, #1a2d74 0%, #061754 100%) no-repeat;
   height: 620px;
   padding-bottom: 80px;
+}
+
+main {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -66,7 +72,7 @@ p {
 }
 
 .ceu {
-  top: 24px;
+  top: 60px;
   background: url(./1489136024.svg) repeat-y center;
   height: 64px;
   width: 100%;
